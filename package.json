@@ -1,0 +1,40 @@
+{
+    "name": "remark-flucent-emoji",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Flucent emoji transformer plugin for Remark",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ywbird/remark-flucent-emoji.git"
+    },
+    "types": "types/index.d.ts",
+    "keywords": [
+        "flucent-emoji",
+        "emoji",
+        "microsoft-flucent-emoji",
+        "microsoft-teams",
+        "remark",
+        "markdown",
+        "mdx",
+        "plugin"
+    ],
+    "author": "ywbird",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ywbird/remark-flucent-emoji/issues"
+    },
+    "homepage": "https://github.com/ywbird/remark-flucent-emoji#readme",
+    "dependencies": {
+        "emoji-regex": "^10.2.1",
+        "mdast-util-find-and-replace": "^3.0.0",
+        "node-emoji": "^2.1.0",
+        "unist-builder": "^4.0.0"
+    },
+    "devDependencies": {
+        "unified": "^10.1.2"
+    }
+}
