@@ -10,10 +10,10 @@ remark().use(remarkFlucentEmoji);
 
 ```js
 import { remark } from 'remark';
-import emoji from 'remark-emoji';
+import remarkFlucentEmoji from 'remark-flucent-emoji';
 
 const doc = 'flucent emoj 😺:+1:';
-const processor = remark().use(emoji);
+const processor = remark().use(remarkFlucentEmoji);
 const file = await processor.process(doc);
 
 console.log(String(file));
